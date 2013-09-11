@@ -8,14 +8,14 @@ tracks:
     - git-bloom-generate -y rosrelease :{ros_distro} --source upstream -i :{release_inc}
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc}
-    devel_branch: !!python/unicode 'hydro-devel'
+    devel_branch: hydro-devel
     last_version: 0.0.2
-    name: !!python/unicode 'robot_upstart'
+    name: robot_upstart
     patches: null
     release_inc: '0'
-    release_repo_url: !!python/unicode 'https://github.com/clearpath-gbp/robot_upstart-release.git'
+    release_repo_url: https://github.com/clearpath-gbp/robot_upstart-release.git
     release_tag: :{version}
     ros_distro: hydro
     vcs_type: git
-    vcs_uri: !!python/unicode 'https://github.com/clearpathrobotics/robot_upstart.git'
+    vcs_uri: https://github.com/clearpathrobotics/robot_upstart.git
     version: :{auto}
