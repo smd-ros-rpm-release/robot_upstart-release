@@ -1,0 +1,21 @@
+ros-hydro-robot-upstart (0.0.3-0quantal) quantal; urgency=high
+
+  * Supply ROS_HOME explicitly in start script.
+  * Remove spurious comment from uninstall script.
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 11 Sep 2013 04:00:00 -0000
+
+ros-hydro-robot-upstart (0.0.2-0quantal) quantal; urgency=high
+
+  * Eliminate rosrun from the make process.
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 06 Sep 2013 04:00:00 -0000
+
+ros-hydro-robot-upstart (0.0.1-0quantal) quantal; urgency=high
+
+  * Generalized robot upstart scripts based on turtlebot_bringup
+  * Includes install and uninstall scripts
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 06 Sep 2013 04:00:00 -0000
+
+
