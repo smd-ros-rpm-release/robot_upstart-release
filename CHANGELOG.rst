@@ -2,6 +2,12 @@
 Changelog for package robot_upstart
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.6 (2014-02-25)
+------------------
+* Add capability to also generate amalgamated descriptions, similar to launch files.
+* Update package.xml
+* Contributors: Mike Purvis
+
 0.0.5 (2013-09-13)
 ------------------
 * Better console outputs.
